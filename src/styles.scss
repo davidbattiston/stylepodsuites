@@ -1,0 +1,108 @@
+@use "../node_modules/rfs/scss" as rfs;
+
+$background-color: #f8f8ff;
+$text-color: #272727;
+
+:global(html) {
+    scroll-behavior: smooth;
+    font-family: 'Quattrocento Sans', sans-serif;
+    height: -webkit-fill-available;
+    background-color: $background-color;
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+:global(body) {
+    min-height: 100vh;
+    /* mobile viewport bug fix */
+    min-height: -webkit-fill-available;
+    color: $text-color;
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    @include rfs.font-size(16px);
+    @include rfs.margin-left(16px);
+    @include rfs.margin-right(16px);
+}
+
+@media only screen and (min-width: 860px) {
+    :global(body) {
+        @include rfs.margin-left(128px);
+        @include rfs.margin-right(128px);
+    }
+}
+
+:global(h1) {
+    @include rfs.font-size(60px);
+    @include rfs.margin-top(60px);
+    @include rfs.margin-bottom(60px);
+    font-family: 'DM Serif Display',
+        serif;
+}
+
+:global(h2) {
+    @include rfs.font-size(50px);
+    @include rfs.margin-top(50px);
+    @include rfs.margin-bottom(50px);
+    font-family: 'DM Serif Display',
+        serif;
+}
+
+:global(h3) {
+    @include rfs.font-size(40px);
+    @include rfs.margin-top(40px);
+    @include rfs.margin-bottom(40px);
+    font-family: 'DM Serif Display',
+        serif;
+}
+
+:global(h4) {
+    @include rfs.font-size(30px);
+    @include rfs.margin-top(30px);
+    @include rfs.margin-bottom(30px);
+    font-family: 'DM Serif Display',
+        serif;
+}
+
+:global(h5) {
+    @include rfs.font-size(20px);
+    @include rfs.margin-top(20px);
+    @include rfs.margin-bottom(20px);
+    font-family: 'DM Serif Display',
+        serif;
+}
+
+:global(p) {
+    @include rfs.font-size(20px);
+    @include rfs.margin-top(20px);
+    @include rfs.margin-bottom(20px);
+}
+
+:global(span) {
+    @include rfs.font-size(20px);
+    @include rfs.margin-top(20px);
+    @include rfs.margin-bottom(20px);
+}
+
+:global(a) {
+    color: inherit;
+    text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+    @include rfs.font-size(20px);
+    @include rfs.margin-top(20px);
+    @include rfs.margin-bottom(20px);
+    font-family: 'DM Serif Display',
+        serif;
+}
+
+:global(*) {
+    box-sizing: border-box;
+}

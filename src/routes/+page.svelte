@@ -88,7 +88,10 @@
             >
         </p>
 
-        <form on:submit|preventDefault={sendEmail}>
+        <form on:submit|preventDefault={() => {
+            sendEmail,
+            alert("Email sent!")
+        }}>
             <label
                 >Name
 

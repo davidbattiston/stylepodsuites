@@ -9,9 +9,11 @@
     function sendEmail(e) {
         emailjs.sendForm(serviceID, templateID, e.target, publicAPIKEY).then(
             (result) => {
+                alert("Email sent!");
                 console.log("SUCCESS!", result.text);
             },
             (error) => {
+                alert("Email not sent, try again.");
                 console.log("FAILED...", error.text);
             }
         );
@@ -88,10 +90,7 @@
             >
         </p>
 
-        <form on:submit|preventDefault={() => {
-            sendEmail,
-            alert("Email sent!")
-        }}>
+        <form on:submit|preventDefault={sendEmail}>
             <label
                 >Name
 

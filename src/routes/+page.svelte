@@ -59,7 +59,7 @@
                     <span><b>104</b> - Carytown Massage</span>
                 </li>
                 <li>
-                    <span> <b>105</b> - Lomi Integrated Massage</span>
+                    <span> <b>105</b> - Bubbly Aesthetics</span>
                 </li>
             </ul>
             <ul>

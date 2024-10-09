@@ -67,7 +67,7 @@
                     <span> <b>107</b> - Sara Baltzegar Hair LLC</span>
                 </li>
                 <li>
-                    <span> <b>109</b> - Available</span>
+                    <span> <b>109</b> - Carytown Massage</span>
                 </li>
                 <li>
                     <span> <b>110</b> - Style by Karen</span>

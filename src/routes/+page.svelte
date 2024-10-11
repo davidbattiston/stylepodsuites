@@ -50,7 +50,7 @@
                     <span><b>100</b> - wigsmoke</span>
                 </li>
                 <li>
-                    <span><b>102</b> - Rosalee Walker & Susan Prather</span>
+                    <span><b>102</b> - Rosalee Walker</span>
                 </li>
                 <li>
                     <span><b>103</b> - Rustic Roots, LLC</span>
@@ -59,7 +59,7 @@
                     <span><b>104</b> - Carytown Massage</span>
                 </li>
                 <li>
-                    <span> <b>105</b> - Bubbly Aesthetics</span>
+                    <span> <b>105</b> - Bubbly Aesthetics & Sanity Beauty</span>
                 </li>
             </ul>
             <ul>
